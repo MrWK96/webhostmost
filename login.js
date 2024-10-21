@@ -44,6 +44,8 @@ async function delayTime(ms) {
             } else {
                 throw new Error('无法找到登出logo按钮');
             }
+            const delay1 = Math.floor(Math.random() * 8000) + 5000; // 随机延时1秒到8秒之间
+            await delayTime(delay1);
 
             const logoutButton = await page.$('#Secondary_Navbar-Account-Logout');
             if (logoutButton) {
@@ -65,8 +67,8 @@ async function delayTime(ms) {
             await browser.close();
 
             // 用户之间添加随机延时
-            const delay = Math.floor(Math.random() * 8000) + 1000; // 随机延时1秒到8秒之间
-            await delayTime(delay);
+            const delay2 = Math.floor(Math.random() * 8000) + 1000; // 随机延时1秒到8秒之间
+            await delayTime(delay2);
         }
     }
 
