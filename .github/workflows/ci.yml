@@ -26,7 +26,7 @@ jobs:
         run: npm install puppeteer  
   
       - name: Create accounts.json  
-        run: echo "$ACCOUNTS_JSON" > accounts.json  
+        run: echo "$WEBHOSTMOST_JSON" > accounts.json  
   
       - name: Login to website  
         run: |  
