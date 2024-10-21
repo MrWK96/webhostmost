@@ -13,4 +13,4 @@
 |  名称 |来源|地址|
 | :------------: | :------------: | :------------: |
 |Limkon|Github|https://github.com/Limkon|
-|bg8ixz|https://github.com/bg8ixz|
+|bg8ixz|Github|https://github.com/bg8ixz|
